@@ -89,9 +89,13 @@ main {
 /* ================================================= */
 
 .contenedor-preguntas {
-  display: grid;
+  display: none;
   grid-column: 1fr;
   gap: 40px;
+}
+
+.contenedor-preguntas.activo{
+  display:grid;
 }
 
 .contenedor-pregunta {
